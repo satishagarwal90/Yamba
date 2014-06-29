@@ -1,0 +1,26 @@
+package com.example.yamba;
+
+import java.util.List;
+import winterwell.jtwitter.Twitter.Status;
+import android.app.IntentService;
+import android.content.Intent;
+import android.util.Log;
+
+public class RefreshService extends IntentService{
+
+	public static String TAG = "RefershService";
+	
+	public RefreshService() {
+		super(TAG);
+	}
+
+	@Override
+	protected void onHandleIntent(Intent arg0) {
+		try {
+				
+		} catch (Exception e) {
+			Log.e(TAG, "Refresh Service Exception", e);
+		}
+	}
+
+}

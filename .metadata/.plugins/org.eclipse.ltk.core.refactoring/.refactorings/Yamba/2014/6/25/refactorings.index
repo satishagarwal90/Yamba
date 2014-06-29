@@ -1,0 +1,8 @@
+1402841481301	Rename type 'RefreshS'
+1402847046048	Extracts string 'null' into R.string.username
+1402847157812	Extracts string 'null' into R.string.username_summary
+1402847203452	Extracts string 'null' into R.string.password
+1402847219828	Extracts string 'null' into R.string.password_summary
+1402847283433	Extracts string 'null' into R.string.server
+1402847306513	Extracts string 'null' into R.string.server_summary
+1403026617293	Delete element

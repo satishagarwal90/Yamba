@@ -1,0 +1,20 @@
+package com.example.yamba;
+
+import android.app.Activity;
+import android.database.Cursor;
+import android.os.Bundle;
+import android.widget.TextView;
+
+public class Timeline extends Activity{
+	
+	TextView textView;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.timeline);
+		textView = (TextView)findViewById(R.id.text_timeline);
+		Cursor cursor = ((YambaApp)(getApplication())).statusData.query();
+	}
+
+}

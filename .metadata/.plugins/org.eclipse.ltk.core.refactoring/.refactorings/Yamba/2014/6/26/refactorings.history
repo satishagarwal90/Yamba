@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring applystyle="true" comment="Extract Style" description="Extract Style" file="/Yamba/res/layout/activity_status.xml" flags="6" id="com.android.ide.eclipse.adt.refactoring.extract.style" name="styleTitle" parent="android:Widget.Holo.Light.TextView" proj="/Yamba" removeall="false" removeextracted="true" sel-end="726" sel-start="403" stamp="1403857372463"/>
+</session>

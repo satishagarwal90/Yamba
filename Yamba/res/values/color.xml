@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+        
+<color android:layout_height="wrap_content" android:id="@+id/colorBlue" android:layout_width="wrap_content" name="Blue">#00F</color>
+<color android:layout_height="wrap_content" android:id="@+id/colorTrans" android:layout_width="wrap_content" name="Trans">#BFFF</color>
+
+</resources>
